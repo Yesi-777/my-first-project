@@ -19,6 +19,7 @@ int main( )
 		if(st.score<stmin.score) 
 			stmin=st;
 	}
+	//github改动
 	printf("\n hight:%5d%15s%5d",stmax.num,stmax.name,stmax.score);
 	printf("\n low:%5d%15s%5d",stmin.num,stmin.name,stmin.score);
 	return 0;
